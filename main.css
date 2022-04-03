@@ -1,0 +1,66 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.logo > div:nth-child(1) {
+    color: #4285f4;
+}
+
+.logo > div:nth-child(2) {
+    color: #ea4335;
+}
+
+.logo > div:nth-child(3) {
+    color: #4285f4;
+}
+
+.logo > div:nth-child(4) {
+    color: #fbbc05;
+}
+
+.logo > div:nth-child(5) {
+    color: #34a853;
+}
+
+.logo > div:nth-child(6) {
+    color: #ea4335;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#search {
+    width: 500px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+#button {
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: gray;
+    font-size: 16px;
+    margin-right: 30px;
+}
+
+#searcharea {
+    border: 2px solid silver;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
